@@ -1,0 +1,21 @@
+// Installation complète de bootstrap
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+//Paramètres globaux
+$colorMain : #009688;
+$clearMain : #66C0B8;
+$darkMain : #002D29;
+$colorClothe : #FFFFFA;
+$colorSummary : #D1D1D1;
+$colorDetails : #EBEBEB;
+$colorSkin1 : #FFEFD6;
+$colorSkin2 : #FFD699;
+$colorSkin3 : #FFC266;
+$colorSkin4 : #553301;
+$darkFont : #464646;
+
+//Import des fichiers scss des pages
+@import "menu";
+@import "weather";
+@import "notFound";
+@import "register";
